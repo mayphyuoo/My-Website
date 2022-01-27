@@ -1,0 +1,58 @@
+body {
+	background-color: #dfbebb;
+	color: #f2e4e9;
+	font-family: "Merriweather", serif;
+	margin: 0px;
+	text-align: center;
+}
+
+div {
+	background-color: #8e7ca6;
+}
+
+h1 {
+	margin-top: 0px;
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: "Dancing script", sans-serif;
+}
+
+h3 {
+	font-family: "Montserrat", sans-serif;
+}
+
+p {
+	font-size: large;
+}
+
+/*****************CLASS SELECTORS********************/
+
+.top-container {
+	padding-top: 100px;
+	position: relative;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.pro {
+	text-decoration: underline;
+}
+
+.top-cloud {
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 300px;
+	bottom: 300px;
+}

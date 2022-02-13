@@ -209,35 +209,35 @@ hr {
 
 @media only screen and (max-width: 600px) {
 	h1 {
-		font-size: 400%;
+		font-size: 4rem;
 		padding-top: 15rem;
 	}
 	h2 {
-		font-size: 200%;
+		font-size: 2rem;
 	}
 
 	h3 {
-		font-size: 110%;
+		font-size: 1.1rem;
 	}
 
 	a {
-		font-size: 130%;
+		font-size: 1.3rem;
 	}
 
 	.otherh2 {
-		font-size: 300%;
+		font-size: 3rem;
 	}
 
 	p {
-		font-size: 90%;
+		font-size: 0.9rem;
 	}
 
 	.btn {
-		font-size: 100%;
+		font-size: 0.9rem;
 	}
 
 	.copyright {
-		font-size: 50%;
+		font-size: 0.8rem;
 	}
 
 	.profile-picture {
@@ -253,9 +253,9 @@ hr {
 
 	hr {
 		border-width: 4px;
-		width: 5%;
+		width: 2rem;
 	}
 	.gif-credit {
-		font-size: 100%;
+		font-size: 1rem;
 	}
 }

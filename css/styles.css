@@ -25,7 +25,7 @@ h2 {
 h3 {
 	color: #302d2b;
 	font-family: "Montserrat", sans-serif;
-	font-size: 1.7rem;
+	font-size: 2rem;
 }
 
 a {
@@ -37,7 +37,7 @@ a {
 }
 
 p {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	line-height: 2;
 }
 
@@ -91,10 +91,11 @@ hr {
 	color: #e6f5eb;
 	font-family: "Montserrat", sans-serif;
 	padding: 20px 0;
+	font-size: 1em;
 }
 
 .intro {
-	width: 30%;
+	width: 50%;
 	margin: auto;
 }
 
@@ -108,7 +109,7 @@ hr {
 
 .profile-picture {
 	position: absolute;
-	top: 30%;
+	top: 20rem;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -127,7 +128,7 @@ hr {
 	position: relative;
 }
 
-.white-thin-layer {
+.opacity-thin-layer {
 	background-color: #000;
 	background-size: cover;
 	position: relative;
@@ -178,10 +179,6 @@ hr {
 	width: 50%;
 }
 
-.skill-text {
-	font-size: 1.2rem;
-}
-
 .top-cloud {
 	width: 200px;
 	height: 200px;
@@ -207,4 +204,19 @@ hr {
 	bottom: 1em;
 }
 
-/****************ID SELECTORS******************/
+/****************Media query******************/
+
+@media only screen and (max-width: 400px) {
+	p {
+		font-size: 2rem;
+	}
+
+	.btn {
+		font-size: 10px;
+	}
+
+	.copyright {
+		font-size: 10px;
+	}
+}
+

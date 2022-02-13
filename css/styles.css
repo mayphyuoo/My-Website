@@ -9,7 +9,7 @@ body {
 h1 {
 	color: #fff;
 	font-family: "Sacramento", cursive;
-	font-size: 5.625rem;
+	font-size: 560%;
 	line-height: 2;
 	padding-top: 19rem;
 	margin: 10px auto 0 auto;
@@ -18,26 +18,30 @@ h1 {
 h2 {
 	color: #cac6b3;
 	font-family: "Montserrat", sans-serif;
-	font-size: 3rem;
+	font-size: 300%;
 	font-weight: normal;
 }
 
 h3 {
 	color: #302d2b;
 	font-family: "Montserrat", sans-serif;
-	font-size: 2rem;
+	font-size: 190%;
 }
 
 a {
 	color: #5f6352;
 	font-family: "Montserrat", sans-serif;
-	font-size: 2rem;
+	font-size: 200%;
 	margin: 10px 20px;
 	text-decoration: none;
 }
 
+a:hover {
+	color: #393b31;
+}
+
 p {
-	font-size: 1.5rem;
+	font-size: 130%;
 	line-height: 2;
 }
 
@@ -52,30 +56,31 @@ hr {
 /*****************CLASS SELECTORS********************/
 
 .btn {
-	background: #a0affa;
-	background-image: -webkit-linear-gradient(top, #91cc9d, #54775c);
-	background-image: -moz-linear-gradient(top, #91cc9d, #54775c);
-	background-image: -ms-linear-gradient(top, #91cc9d, #54775c);
-	background-image: -o-linear-gradient(top, #91cc9d, #54775c);
-	background-image: linear-gradient(to bottom, #91cc9d, #54775c);
+	background: #91cc9d;
+	background-image: -webkit-linear-gradient(top, #91cc9d, #679171);
+	background-image: -moz-linear-gradient(top, #91cc9d, #679171);
+	background-image: -ms-linear-gradient(top, #91cc9d, #679171);
+	background-image: -o-linear-gradient(top, #91cc9d, #679171);
+	background-image: linear-gradient(to bottom, #91cc9d, #679171);
 	-webkit-border-radius: 8;
 	-moz-border-radius: 8;
 	border-radius: 8px;
 	font-family: "Montserrat", sans-serif;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 110%;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 }
 
 .btn:hover {
-	background: #b8c4ff;
-	background-image: -webkit-linear-gradient(top, #77a781, #689170);
-	background-image: -moz-linear-gradient(top, #77a781, #689170);
-	background-image: -ms-linear-gradient(top, #77a781, #689170);
-	background-image: -o-linear-gradient(top, #77a781, #689170);
-	background-image: linear-gradient(to bottom, #77a781, #689170);
+	background: #77a781;
+	background-image: -webkit-linear-gradient(top, #85bb8f, #6f9b77);
+	background-image: -moz-linear-gradient(top, #85bb8f, #6f9b77);
+	background-image: -ms-linear-gradient(top, #85bb8f, #6f9b77);
+	background-image: -o-linear-gradient(top, #85bb8f, #6f9b77);
+	background-image: linear-gradient(to bottom, #85bb8f, #6f9b77);
 	text-decoration: none;
+	color: #fff;
 }
 
 .contact-me {
@@ -84,14 +89,14 @@ hr {
 
 .contact-text {
 	margin: 40px auto 60px;
-	width: 40%;
+	width: 50%;
 }
 
 .copyright {
 	color: #e6f5eb;
 	font-family: "Montserrat", sans-serif;
 	padding: 20px 0;
-	font-size: 1em;
+	font-size: 100%;
 }
 
 .intro {
@@ -118,7 +123,7 @@ hr {
 	color: #374d3c;
 	font-family: "Dancing Script", cursive;
 	font-weight: bolder;
-	font-size: 4rem;
+	font-size: 400%;
 }
 
 .top-container {
@@ -139,10 +144,6 @@ hr {
 	left: 0;
 	width: 100%;
 	opacity: 0.65;
-}
-
-.mountain {
-	width: 100%;
 }
 
 .middle-container {
@@ -199,24 +200,52 @@ hr {
 	color: #fff;
 	opacity: 0.5;
 	position: absolute;
-	font-size: 1.3em;
+	font-size: 100%;
 	right: 0;
-	bottom: 1em;
+	bottom: 0.5em;
 }
 
 /****************Media query******************/
 
 @media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 400%;
+	}
+	h2 {
+		font-size: 200%;
+	}
+
+	h3 {
+		font-size: 150%;
+	}
+
+	a {
+		font-size: 150%;
+	}
+
+	.otherh2 {
+		font-size: 310%;
+	}
+	
 	p {
-		font-size: 2rem;
+		font-size: 100%;
 	}
 
 	.btn {
-		font-size: 10px;
+		font-size: 100%;
 	}
 
 	.copyright {
-		font-size: 10px;
+		font-size: 80%;
+	}
+
+
+	hr {
+		border-width: 4px;
+	width: 5%;
+	}
+	.gif-credit {
+		font-size: 100%;
 	}
 }
 

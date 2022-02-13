@@ -207,7 +207,7 @@ hr {
 
 /****************Media query******************/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 	h1 {
 		font-size: 400%;
 		padding-top: 15rem;
@@ -227,7 +227,7 @@ hr {
 	.otherh2 {
 		font-size: 300%;
 	}
-	
+
 	p {
 		font-size: 80%;
 	}
@@ -248,15 +248,14 @@ hr {
 
 	.opacity-thin-layer {
 		padding-top: 5.5em;
-	padding-bottom: 5.5em;
+		padding-bottom: 5.5em;
 	}
 
 	hr {
 		border-width: 4px;
-	width: 5%;
+		width: 5%;
 	}
 	.gif-credit {
 		font-size: 100%;
 	}
 }
-

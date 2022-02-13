@@ -1,54 +1,37 @@
-/*
-
-Colors
-#f2e4e9
-
-new color scheme
-background #24283B
-complementary-pink 	#EDC4C0
-					#EDAEA8
-					#A17672
-blue-greyish 	#7B88C7
-				#B8C4FF
-				#40497A
-				#5C6594
-				#171F47
-
-
-
-*/
 body {
-	background-color: #becde2;
-	color: #6b4e4b;
+	background-color: #c9c4b4;
+	color: #634846;
 	font-family: "Merriweather", serif;
 	margin: 0px;
 	text-align: center;
 }
 
 h1 {
-	color: #ff90d1;
+	color: #fff;
 	font-family: "Sacramento", cursive;
 	font-size: 5.625rem;
 	line-height: 2;
-	margin: 50px auto 0 auto;
+	padding-top: 19rem;
+	margin: 10px auto 0 auto;
 }
 
 h2 {
-	color: #ff90d1d0;
+	color: #cac6b3;
 	font-family: "Montserrat", sans-serif;
 	font-size: 3rem;
 	font-weight: normal;
 }
 
 h3 {
-	color: #40497A;
+	color: #302d2b;
 	font-family: "Montserrat", sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 
 a {
-	color: #7B88C7;
+	color: #5f6352;
 	font-family: "Montserrat", sans-serif;
+	font-size: 2rem;
 	margin: 10px 20px;
 	text-decoration: none;
 }
@@ -59,22 +42,22 @@ p {
 }
 
 hr {
-	border-color: #B8C4FF;
+	border-color: #b8a198;
 	border-style: none;
 	border-top-style: dotted;
 	border-width: 6px;
-	width: 4%;
+	width: 5%;
 }
 
 /*****************CLASS SELECTORS********************/
 
 .btn {
 	background: #a0affa;
-	background-image: -webkit-linear-gradient(top, #a0affa, #5C6594);
-	background-image: -moz-linear-gradient(top, #a0affa, #5C6594);
-	background-image: -ms-linear-gradient(top, #a0affa, #5C6594);
-	background-image: -o-linear-gradient(top, #a0affa, #5C6594);
-	background-image: linear-gradient(to bottom, #a0affa, #5C6594);
+	background-image: -webkit-linear-gradient(top, #91cc9d, #54775c);
+	background-image: -moz-linear-gradient(top, #91cc9d, #54775c);
+	background-image: -ms-linear-gradient(top, #91cc9d, #54775c);
+	background-image: -o-linear-gradient(top, #91cc9d, #54775c);
+	background-image: linear-gradient(to bottom, #91cc9d, #54775c);
 	-webkit-border-radius: 8;
 	-moz-border-radius: 8;
 	border-radius: 8px;
@@ -83,17 +66,17 @@ hr {
 	font-size: 20px;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
-  }
-  
-  .btn:hover {
-	background: #B8C4FF;
-	background-image: -webkit-linear-gradient(top, #a6b1e6, #7B88C7);
-	background-image: -moz-linear-gradient(top, #a6b1e6, #7B88C7);
-	background-image: -ms-linear-gradient(top, #a6b1e6, #7B88C7);
-	background-image: -o-linear-gradient(top, #a6b1e6, #7B88C7);
-	background-image: linear-gradient(to bottom, #a6b1e6, #7B88C7);
+}
+
+.btn:hover {
+	background: #b8c4ff;
+	background-image: -webkit-linear-gradient(top, #77a781, #689170);
+	background-image: -moz-linear-gradient(top, #77a781, #689170);
+	background-image: -ms-linear-gradient(top, #77a781, #689170);
+	background-image: -o-linear-gradient(top, #77a781, #689170);
+	background-image: linear-gradient(to bottom, #77a781, #689170);
 	text-decoration: none;
-  }
+}
 
 .contact-me {
 	margin: 100px auto;
@@ -105,7 +88,7 @@ hr {
 }
 
 .copyright {
-	color: #eaf6f6;
+	color: #e6f5eb;
 	font-family: "Montserrat", sans-serif;
 	padding: 20px 0;
 }
@@ -123,17 +106,38 @@ hr {
 	margin: 100px auto;
 }
 
+.profile-picture {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .otherh2 {
-	color: #171F47;
+	color: #374d3c;
 	font-family: "Dancing Script", cursive;
 	font-weight: bolder;
 	font-size: 4rem;
 }
 
 .top-container {
-	background-color: #24283B;
-	padding-top: 100px;
+	background-image: url("../images/header-bg.gif");
+	background-size: cover;
+	background-repeat: repeat;
 	position: relative;
+}
+
+.white-thin-layer {
+	background-color: #000;
+	background-size: cover;
+	position: relative;
+	padding-top: 7em;
+	padding-bottom: 5.5em;
+
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.65;
 }
 
 .mountain {
@@ -145,7 +149,7 @@ hr {
 }
 
 .bottom-container {
-	background-color: #40497A;
+	background-color: #9bc4aa;
 	padding-bottom: 80px;
 	padding-top: 100px;
 }
@@ -186,12 +190,21 @@ hr {
 	top: 40px;
 }
 
-.bottom-cloud {
-	width: 200px;
-	height: 200px;
+.bottom-plants {
+	/* width: 200px;
+	height: 200px; */
+	position: relative;
+	/* left: 100px;
+	bottom: 10px; */
+}
+
+.gif-credit {
+	color: #fff;
+	opacity: 0.5;
 	position: absolute;
-	left: 100px;
-	bottom: 10px;
+	font-size: 1.3em;
+	right: 0;
+	bottom: 1em;
 }
 
 /****************ID SELECTORS******************/

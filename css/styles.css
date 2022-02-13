@@ -9,7 +9,7 @@ body {
 h1 {
 	color: #fff;
 	font-family: "Sacramento", cursive;
-	font-size: 560%;
+	font-size: 5.625rem;
 	line-height: 2;
 	padding-top: 19rem;
 	margin: 10px auto 0 auto;
@@ -18,20 +18,20 @@ h1 {
 h2 {
 	color: #cac6b3;
 	font-family: "Montserrat", sans-serif;
-	font-size: 300%;
+	font-size: 3rem;
 	font-weight: normal;
 }
 
 h3 {
 	color: #302d2b;
 	font-family: "Montserrat", sans-serif;
-	font-size: 190%;
+	font-size: 1.9em;
 }
 
 a {
 	color: #5f6352;
 	font-family: "Montserrat", sans-serif;
-	font-size: 200%;
+	font-size: 2em;
 	margin: 10px 20px;
 	text-decoration: none;
 }
@@ -41,7 +41,7 @@ a:hover {
 }
 
 p {
-	font-size: 130%;
+	font-size: 1.3rem;
 	line-height: 2;
 }
 
@@ -67,7 +67,7 @@ hr {
 	border-radius: 8px;
 	font-family: "Montserrat", sans-serif;
 	color: #ffffff;
-	font-size: 110%;
+	font-size: 1.1rem;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 }
@@ -96,7 +96,7 @@ hr {
 	color: #e6f5eb;
 	font-family: "Montserrat", sans-serif;
 	padding: 20px 0;
-	font-size: 100%;
+	font-size: 1rem;
 }
 
 .intro {
@@ -123,7 +123,7 @@ hr {
 	color: #374d3c;
 	font-family: "Dancing Script", cursive;
 	font-weight: bolder;
-	font-size: 400%;
+	font-size: 4em;
 }
 
 .top-container {
@@ -137,8 +137,8 @@ hr {
 	background-color: #000;
 	background-size: cover;
 	position: relative;
-	padding-top: 7em;
-	padding-bottom: 5.5em;
+	padding-top: 7rem;
+	padding-bottom: 5rem;
 
 	top: 0;
 	left: 0;
@@ -161,13 +161,13 @@ hr {
 }
 
 .skill-img-left {
-	width: 25%;
+	width: 30%;
 	float: left;
 	margin-right: 30px;
 }
 
 .skill-img-right {
-	width: 25%;
+	width: 30%;
 	float: right;
 	margin-left: 30px;
 	margin-bottom: 30px;
@@ -189,8 +189,7 @@ hr {
 }
 
 .bottom-plants {
-	/* width: 200px;
-	height: 200px; */
+	size: auto;
 	position: relative;
 	/* left: 100px;
 	bottom: 10px; */
@@ -200,7 +199,7 @@ hr {
 	color: #fff;
 	opacity: 0.5;
 	position: absolute;
-	font-size: 100%;
+	font-size: 1rem;
 	right: 0;
 	bottom: 0.5em;
 }
@@ -217,7 +216,7 @@ hr {
 	}
 
 	h3 {
-		font-size: 1.1rem;
+		font-size: 1rem;
 	}
 
 	a {
@@ -241,20 +240,21 @@ hr {
 	}
 
 	.profile-picture {
-		width: 12rem;
-		height: 12rem;
+		width: 10rem;
+		height: 10rem;
 		top: 15rem;
 	}
 
-	.opacity-thin-layer {
-		padding-top: 5.5em;
-		padding-bottom: 5.5em;
+	.bottom-plants {
+		padding-top: 1rem;
+		width: 10rem;
 	}
 
 	hr {
 		border-width: 4px;
 		width: 2rem;
 	}
+
 	.gif-credit {
 		font-size: 1rem;
 	}

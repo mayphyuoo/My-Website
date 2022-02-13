@@ -207,7 +207,7 @@ hr {
 
 /****************Media query******************/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 	h1 {
 		font-size: 400%;
 		padding-top: 15rem;
@@ -229,7 +229,7 @@ hr {
 	}
 
 	p {
-		font-size: 80%;
+		font-size: 90%;
 	}
 
 	.btn {

@@ -83,33 +83,12 @@ hr {
 	color: #fff;
 }
 
-.contact-me {
-	margin: 100px auto;
-}
-
-.contact-text {
-	margin: 40px auto 60px;
-	width: 50%;
-}
-
-.copyright {
-	color: #e6f5eb;
-	font-family: "Montserrat", sans-serif;
-	padding: 20px 0;
-	font-size: 1rem;
-}
-
-.intro {
-	width: 50%;
-	margin: auto;
-}
-
-.programmer {
-	padding-bottom: 150px;
-}
-
-.profile {
-	margin: 100px auto;
+/* Header */
+.top-container {
+	background-image: url("../images/header-bg.gif");
+	background-size: cover;
+	background-repeat: repeat;
+	position: relative;
 }
 
 .profile-picture {
@@ -119,19 +98,26 @@ hr {
 	transform: translate(-50%, -50%);
 }
 
-.otherh2 {
-	color: #374d3c;
-	font-family: "Dancing Script", cursive;
-	font-weight: bolder;
-	font-size: 4em;
+.programmer {
+	padding-bottom: 150px;
 }
 
-.top-container {
-	background-image: url("../images/header-bg.gif");
-	background-size: cover;
-	background-repeat: repeat;
-	position: relative;
+.gif-credit {
+	color: #fff;
+	opacity: 0.5;
+	position: absolute;
+	font-size: 1rem;
+	right: 0;
+	bottom: 0.5em;
 }
+
+/* .top-cloud {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 150px;
+	top: 40px;
+} */
 
 .opacity-thin-layer {
 	background-color: #000;
@@ -146,14 +132,33 @@ hr {
 	opacity: 0.65;
 }
 
+/* middle part */
+
 .middle-container {
 	margin-bottom: 100px;
 }
 
-.bottom-container {
-	background-color: #9bc4aa;
-	padding-bottom: 80px;
-	padding-top: 100px;
+.profile {
+	margin: 100px auto;
+}
+
+.intro {
+	width: 50%;
+	margin: auto;
+}
+
+.bottom-plants {
+	size: auto;
+	position: relative;
+	/* left: 100px;
+	bottom: 10px; */
+}
+
+.otherh2 {
+	color: #374d3c;
+	font-family: "Dancing Script", cursive;
+	font-weight: bolder;
+	font-size: 4em;
 }
 
 .skills {
@@ -180,31 +185,31 @@ hr {
 	width: 50%;
 }
 
-.top-cloud {
-	width: 200px;
-	height: 200px;
-	position: absolute;
-	right: 150px;
-	top: 40px;
+/* Footer */
+
+.bottom-container {
+	background-color: #9bc4aa;
+	padding-bottom: 80px;
+	padding-top: 100px;
 }
 
-.bottom-plants {
-	size: auto;
-	position: relative;
-	/* left: 100px;
-	bottom: 10px; */
+.contact-me {
+	margin: 100px auto;
 }
 
-.gif-credit {
-	color: #fff;
-	opacity: 0.5;
-	position: absolute;
+.contact-text {
+	margin: 40px auto 60px;
+	width: 50%;
+}
+
+.copyright {
+	color: #e6f5eb;
+	font-family: "Montserrat", sans-serif;
+	padding: 20px 0;
 	font-size: 1rem;
-	right: 0;
-	bottom: 0.5em;
 }
 
-/****************Media query******************/
+/****************Media query(mobile screen)******************/
 
 @media only screen and (max-width: 600px) {
 	h1 {
